@@ -1,2 +1,12 @@
+# Dependency directories
 node_modules
+
+# Typescript compilation output
 lib
+
+# OS X temporary files
+.DS_Store
+
+# Heft
+.heft
+temp
