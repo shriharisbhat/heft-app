@@ -6,13 +6,15 @@
   "main": "lib/start.js",
   "typings": "lib/start.d.ts",
   "scripts": {
-    "build": "heft test --clean",
+    "build": "heft build --clean",
     "start": "node lib/start.js"
   },
   "devDependencies": {
+    "@rushstack/eslint-config": "^3.1.1",
     "@rushstack/heft": "^0.48.6",
     "@types/heft-jest": "1.0.3",
     "@types/node": "18.11.3",
+    "eslint": "^8.26.0",
     "typescript": "^4.8.4"
   }
 }
