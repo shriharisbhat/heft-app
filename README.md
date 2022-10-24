@@ -19,3 +19,14 @@ Core plugins
     - @rushstack/heft-webpack4-plugin - Supports older projects using Webpack 4
 
 - Adding more tasks - https://rushstack.io/pages/heft_tutorials/adding_tasks/
+
+- Heft comes with a number of built-in tasks that become enabled automatically based on config files that you create. All the tasks are documented in the Heft tasks section.
+
+  - https://rushstack.io/pages/heft_tasks/api-extractor/
+
+- Jest task
+
+  - Further information, including instructions for debugging tests, can be found in the "jest" task reference - https://rushstack.io/pages/heft_tasks/jest/ and the heft-node-jest-tutorial sample project.
+
+- Eslint task
+  - More detail can be found in the eslint task reference.
