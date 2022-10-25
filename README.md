@@ -1,5 +1,10 @@
 # Introduction
 
+- Heft is a config-driven toolchain that invokes other popular tools such as TypeScript, ESLint, Jest, Webpack, and API Extractor.
+- Heft is typically launched by the "build" action from a package.json file.
+- It's designed for use in a monorepo with potentially hundreds of projects, where the Rush orchestrator invokes a "build" action separately in each project folder.
+- In brie, Heft takes over when Rush invokes the "build" script in a Rush project folder.
+- More on here - https://rushstack.io/pages/heft/overview/
 - Getting Started - https://rushstack.io/pages/heft_tutorials/getting_started/
 
 Core plugins
@@ -29,4 +34,8 @@ Core plugins
   - Further information, including instructions for debugging tests, can be found in the "jest" task reference - https://rushstack.io/pages/heft_tasks/jest/ and the heft-node-jest-tutorial sample project.
 
 - Eslint task
+
   - More detail can be found in the eslint task reference.
+
+- Heft Everyday commands
+  - Refer this link - https://rushstack.io/pages/heft_tutorials/everyday_commands/
